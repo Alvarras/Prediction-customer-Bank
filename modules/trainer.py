@@ -7,7 +7,7 @@ Usage:
 import os
 import tensorflow as tf
 import tensorflow_transform as tft
-from tensorflow.keras import layers
+from tensorflow.keras import layers 
 from transform import (CATEGORICAL_FEATURES, LABEL_KEY, NUMERICAL_FEATURES,
                        transformed_name)
 from tuner import input_fn
